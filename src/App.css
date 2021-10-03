@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
-}
+ table td{
+   border:1px solid black;
+   padding: 0 4px;
+   text-align: center;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ }
+ table tr th{
+   text-align: center;
+ }
+ Header{
+   background-color:darkblue;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ }
+ Header h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: chartreuse;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ Header h3{
+   text-align: center;
+   color: chartreuse;
+ }
+ .container {
+   text-align: center;
+   border: black solid 1px;
+   padding: 10px 10px 4px 4px;
+   background-color: chartreuse;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ button{
+   color: chartreuse;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   background-color:darkblue;
+ }
+div.outputcontainer{
+   text-align: center;
+ }
+    
+Footer h1{
+   background-color: darkblue;
+   text-align: center;
+ }
